@@ -8,7 +8,7 @@
 "=" {printf("Assignment Operator: %s\n", yytext);}
 "printf" {printf("Function to print: %s\n", yytext);}
 "(" {printf("Opening Bracket: %s\n", yytext);}
-"=" {printf("Closing Bracket %s\n", yytext);}
+")" {printf("Closing Bracket %s\n", yytext);}
 [\n\t ]+ { /* Ignore whitespace, newline, tab */ }
 . { }
 
