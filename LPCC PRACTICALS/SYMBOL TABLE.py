@@ -45,7 +45,7 @@ def symbol():
     print("Symbol Table:")
     for key, value in symtab.items():
         print(f"{key}\t{value[0]}\t{value[1]}")
-file = open(r"C:\Users\Lenovo\Desktop\STUDY\SEMESTER 6\LPCC\PRACTICAL EXAM\INPUT CODE 1.txt")
+file = open(r"INPUT CODE 1.txt")
 for line in file:
     words = line.split()
     k = 0
