@@ -2,7 +2,7 @@ import os
 LC=0  #location counter initialization
 
 mnemonics={'STOP':('00','IS',0),'ADD':('01','IS',2),'SUB':('02','IS',2),'MUL':('03','IS',2),'MOVER':('04','IS',2),'MOVEM':('05','IS',2),'COMP':('06','IS',2),'BC':('07','IS',2),'DIV':('08','IS',2),'READ':('09','IS',1),'PRINT':('10','IS',1),'LTORG':('05','AD',0),'ORIGIN':('03','AD',1),'START':('01','AD',1),'EQU':('04','AD',2),'DS':('01','DL',1),'DC':('02','DL',1),'END':('AD',0)}
-file=open(r"C:\Users\Lenovo\Desktop\STUDY\SEMESTER 6\LPCC\PRACTICAL EXAM\INPUT CODE 4.txt")
+file=open(r"INPUT CODE 4.txt")
 ifp=open("inter_code.txt","a")  
 ifp.truncate(0)                 
 REG={'AREG':1,'BREG':2,'CREG':3,'DREG':4}  
