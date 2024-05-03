@@ -1,3 +1,4 @@
+#use python3 pyunzip.py KSK.zip
 #!/usr/bin/env python3
 import sys
 from zipfile import PyZipFile
